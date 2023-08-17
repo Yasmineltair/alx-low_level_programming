@@ -18,9 +18,8 @@ if (c >= 10)
 	_putchar('1');
 	_putchar(c % 10 + '0');
 }
-else
 _putchar(c);
-}
-}
+	}
 _putchar('\n');
+}
 }
