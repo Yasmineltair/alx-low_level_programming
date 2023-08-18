@@ -20,7 +20,8 @@ for (i = 1; i <= size; i++)
 for (spaces = size - i; spaces >= 1; spaces--)
 {
 _putchar(' ');
-for (hashes = 1; hashes <= i; hashes--)
+}
+for (hashes = 1; hashes <= i; hashes++)
 {
 	_putchar('#');
 }
@@ -28,4 +29,4 @@ _putchar('\n');
 }
 }
 }
-}
+
