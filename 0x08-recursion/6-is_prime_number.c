@@ -1,4 +1,4 @@
-#include "stdio.h"
+#include "main.h"
 
 /**
   * is_prime_number -  function that returns
