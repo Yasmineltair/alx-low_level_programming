@@ -31,7 +31,7 @@ char *st;
 if (ac == 0 || av == NULL)
 	return (NULL);
 for (i = 0; i < ac; i++, nc++)
-	nc += _strlength(av[i] + 1);
+	nc += _strlength(av[i]);
 st = malloc(sizeof(char) * nc + 1);
 if (st == 0)
 	return (NULL);
