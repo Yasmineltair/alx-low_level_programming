@@ -28,9 +28,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	void *a;
 if (size == 0 || nmemb == 0)
 	return (NULL);
-a = malloc(sizeof(int) * nmemb);
+a = malloc(size * nmemb);
 if (a == 0)
 	return (NULL);
-_memset(a, 0, sizeof(int) * nmemb);
+_memset(a, 0, size * nmemb);
 return (a);
 }
