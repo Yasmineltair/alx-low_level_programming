@@ -4,6 +4,7 @@
   * _memset - function to set value to array
   * @b: replaces value
   * @n: number of bytes
+  * @s: input string
   * Return: pointer
   */
 
