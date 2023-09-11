@@ -20,7 +20,7 @@ return (size);
   * _strcopy - function to copy string
   * @dest: destination string
   * @src: source string
-  * Return dest
+  * Return: dest
   */
 
 char *_strcopy(char *dest, char *src)
