@@ -11,7 +11,7 @@
 int _strlength(char *s)
 {
 int size;
-for (size  = 0; s[size] != '\0'; size++);
+for (size  = 0; s[size] != '\0'; size++)
 ;
 return (size);
 }
@@ -20,7 +20,7 @@ return (size);
   * _strcopy - function to copy string
   * @dest: destination string
   * @src: source string
-  * Retuen: @dest
+  * Return dest
   */
 
 char *_strcopy(char *dest, char *src)
