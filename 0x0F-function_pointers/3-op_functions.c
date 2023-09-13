@@ -16,7 +16,7 @@ return (a + b);
   * op_sub - function return subtraction between 2 int
   * @a: the first int
   * @b: the second int
-  * Return : difference of a and b
+  * Return: difference of a and b
   */
 
 int op_sub(int a, int b)
