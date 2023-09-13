@@ -21,3 +21,9 @@ for (; s[i]; i++)
 n++;
 return (n);
 }
+
+char **strtow(char *str)
+{
+int i, j,n = 0,
+    char **s
+}
