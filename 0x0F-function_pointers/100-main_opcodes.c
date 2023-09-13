@@ -10,9 +10,8 @@
 
 int main(int argc, char **argv)
 {
-int (*address)(int, char **) = main;
-int bytes, index;
-unsigned char opcode;
+	char *ptr = (char *)main;
+int bytes;
 
 if (argc != 2)
 printf("Error\n");
@@ -21,15 +20,8 @@ bytes = atoi(argv[1]);
 if (bytes < 0)
 printf("Error\n");
 exit(2);
-for (index = 0; index  < bytes; index++)
+while (bytes--)
 {
-	opcode = *(unsigned char *)address;
-	printf("%.2x", opcode);
-if (index == bytes - 1)
-	continue;
-	printf(" ");
-	address++;
-}
-printf("\n");
+	printf("%.2x", *ptr++, bytes ? " " : "\n");
 return (0);
 }
