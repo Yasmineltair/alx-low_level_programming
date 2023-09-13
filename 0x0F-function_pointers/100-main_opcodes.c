@@ -22,6 +22,6 @@ printf("Error\n");
 exit(2);
 while (bytes--)
 {
-	printf("%.2x", *ptr++, bytes ? " " : "\n");
+	printf("%02hhx%s", *ptr++, bytes ? " " : "\n");
 return (0);
 }
