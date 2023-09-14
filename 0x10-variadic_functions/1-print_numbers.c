@@ -15,7 +15,6 @@ va_list pr;
 if (!n)
 {
 	printf("\n");
-	return;
 }
 va_start(pr, n);
 while (i--)
