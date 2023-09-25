@@ -11,7 +11,7 @@ listint_t *node, *temp;
 
 if (head == NULL)
 {
-	return (NULL);
+	return;
 }
 node = *head;
 while (node)
