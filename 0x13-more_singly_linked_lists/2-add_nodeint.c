@@ -20,7 +20,7 @@ new_node->n = n;
 if (*head)
 {
 	new_node->next = *head;
-	*head = new_node;
 }
+	*head = new_node;
 return (new_node);
 }
