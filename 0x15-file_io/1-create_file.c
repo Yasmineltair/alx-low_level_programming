@@ -14,8 +14,9 @@ if (!s)
 	return (0);
 while (*s++)
 	i++;
-	return (i);
+return (i);
 }
+
 /**
   * create_file - function that creates a file.
   * @filename: the filename
