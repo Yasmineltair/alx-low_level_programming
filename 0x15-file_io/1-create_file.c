@@ -17,8 +17,8 @@ if (filename == NULL)
 	return (-1);
 if (text_content != NULL)
 {
-	for (len  = 0; text_content[len]; len++)
-		;
+	for (len  = 0; text_content[len]; )
+		len++;
 }
 fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
 w = write(fd, text_content, len);
