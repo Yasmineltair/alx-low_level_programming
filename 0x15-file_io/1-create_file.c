@@ -13,7 +13,7 @@ int fd;
 int len;
 int w;
 
-if (!filename)
+if (filename == NULL)
 	return (-1);
 if (text_content != NULL)
 {
