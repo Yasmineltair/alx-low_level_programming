@@ -53,7 +53,6 @@ hash_node_t *mk_hash_nod(const char *key, const char *value)
 
 	node = malloc(sizeof(hash_node_t));
 	if (node == NULL)
-	
 		return (NULL);
 	node->key = strdup(key);
 	if (node->key == NULL)
