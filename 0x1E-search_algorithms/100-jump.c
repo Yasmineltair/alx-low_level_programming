@@ -3,7 +3,7 @@
 
 /**
   * jump_search - searches for a value in a sorted
-  array of integers using the Jump search algorithm
+  * array of integers using the Jump search algorithm
   * @array: a pointer to the first element of the
   * array to search in
   * @size: the number of elements in array
